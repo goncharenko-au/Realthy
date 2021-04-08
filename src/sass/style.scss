@@ -1,0 +1,47 @@
+@import "./normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Tenor+Sans&display=swap");
+@import "base/variables";
+@import "base/mixins";
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+// .container {
+//     max-width: 1170px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin: 0 auto;
+// }
+
+.title {
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+@import "blocks/main";
+@import "blocks/header";
+@import "blocks/footer";
+// @import "blocks/promo";
+// @import "blocks/title";
+// @import "blocks/button";
+// @import "blocks/sidepanel";
+// @import "blocks/menu";
+// @import "blocks/about";
+// @import "blocks/resume";
+// @import "blocks/skills";
+// @import "blocks/portfolio";
+// @import "blocks/price";
+// @import "blocks/contacts";
+// @import "blocks/policy";
